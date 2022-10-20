@@ -29,7 +29,7 @@ func tableXkcdComic(ctx context.Context) *plugin.Table {
 			{ Name: "url", Type: proto.ColumnType_STRING, Description: "Comic URL" },
 			{ Name: "month", Type: proto.ColumnType_INT, Description: "Month Published" },
 			{ Name: "news", Type: proto.ColumnType_STRING, Description: "News" },
-			{ Name: "safeTitle", Type: proto.ColumnType_STRING, Description: "Safe Title" },
+			{ Name: "safe_title", Type: proto.ColumnType_STRING, Description: "Safe Title" },
 			{ Name: "title", Type: proto.ColumnType_STRING, Description: "Title" },
 			{ Name: "transcript", Type: proto.ColumnType_STRING, Description: "Transcript" },
 			{ Name: "year", Type: proto.ColumnType_INT, Description: "Year Published" },
